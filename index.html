@@ -8,14 +8,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500;600;700&display=swap');
 *,*::before,*::after{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent;}
 :root{
-  --navy:#0D0F1A;--navy2:#13162A;--navy3:#1C2038;--navy4:#252A45;--navy5:#2E3450;
-  --card-bg:#181C30;--red:#E8352A;--red-light:#FF5A50;--green:#3DD68C;--green2:#2BAF72;
-  --white:#FFFFFF;--grey:#8A90A8;--grey2:#B0B5CC;--grey3:#CFD3E8;
-  --subtext:#8A90A8;--accent-blue:#4A90D9;--accent-gold:#FAC775;
+  --navy:#F2EAD8;--navy2:#EAE0CC;--navy3:#DDD3BE;--navy4:#C8BCA8;--navy5:#B8AE9C;
+  --card-bg:#FFFFFF;--red:#E8352A;--red-light:#FF5A50;--green:#3DD68C;--green2:#2BAF72;
+  --white:#0D1829;--grey:#7A6E5E;--grey2:#5A5048;--grey3:#3D3630;
+  --subtext:#7A6E5E;--accent-blue:#2464A8;--accent-gold:#C47F00;
   --radius:20px;--radius-sm:14px;--radius-xs:10px;
 }
-body{font-family:'DM Sans',sans-serif;background:#060810;display:flex;justify-content:center;align-items:flex-start;min-height:100vh;padding:20px;}
-.phone{width:390px;background:var(--navy);border-radius:44px;overflow:hidden;position:relative;box-shadow:0 40px 80px rgba(0,0,0,0.6),0 0 0 1px rgba(255,255,255,0.06);}
+body{font-family:'DM Sans',sans-serif;background:#C4B8A8;display:flex;justify-content:center;align-items:flex-start;min-height:100vh;padding:20px;}
+.phone{width:390px;background:var(--navy);border-radius:44px;overflow:hidden;position:relative;box-shadow:0 40px 80px rgba(0,0,0,0.2),0 0 0 1px rgba(0,0,0,0.08);}
 .screen{display:none;flex-direction:column;min-height:844px;background:var(--navy);padding-bottom:88px;overflow-y:auto;overflow-x:hidden;}
 .screen.active{display:flex;}
 .screen::-webkit-scrollbar{display:none;}
@@ -65,7 +65,7 @@ body{font-family:'DM Sans',sans-serif;background:#060810;display:flex;justify-co
 .ob-day-num{font-family:'Bebas Neue',sans-serif;font-size:32px;color:var(--white);line-height:1;}
 .ob-day-label{font-size:10px;color:var(--subtext);margin-top:2px;}
 .ob-day-btn.selected .ob-day-num{color:var(--red-light);}
-.ob-date-input{background:var(--card-bg);border:1.5px solid var(--navy4);border-radius:14px;padding:16px 18px;font-family:'DM Sans',sans-serif;font-size:16px;color:var(--white);outline:none;width:100%;transition:border-color 0.15s;color-scheme:dark;}
+.ob-date-input{background:var(--card-bg);border:1.5px solid var(--navy4);border-radius:14px;padding:16px 18px;font-family:'DM Sans',sans-serif;font-size:16px;color:var(--white);outline:none;width:100%;transition:border-color 0.15s;color-scheme:light;}
 .ob-date-input:focus{border-color:var(--red-light);}
 .ob-nav{display:flex;gap:12px;margin-top:28px;}
 .ob-back-btn{width:52px;height:52px;border-radius:50%;background:var(--navy3);border:1px solid var(--navy4);cursor:pointer;display:flex;align-items:center;justify-content:center;color:var(--white);font-size:20px;flex-shrink:0;}
